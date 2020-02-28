@@ -175,6 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // Kafka service providers
+        App\Providers\ProducerServiceProvider::class,
     ],
 
     /*
